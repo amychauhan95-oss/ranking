@@ -1,0 +1,15 @@
+{
+  "name": "usa-remote-jobs-cf",
+  "version": "1.0.0",
+  "description": "2,000,000 Remote Jobs USA Portal — Cloudflare Edition",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "pages:dev": "wrangler pages dev . --compatibility-date=2024-01-01",
+    "pages:deploy": "wrangler pages deploy . --project-name=usa-remote-jobs"
+  },
+  "devDependencies": {
+    "wrangler": "^3.22.0"
+  }
+}
